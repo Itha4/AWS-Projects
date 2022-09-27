@@ -1,0 +1,19 @@
+No Organization or individual likes to be caught unawares by budgets. Having to pay for something you had not budgeted for is not such a thrilling task especially when you think of the dent that will be left once the bill is cleared. 
+Working in the cloud is both fun and sometimes it induces mini heart attacks when you open the cost analysis blade and see a shocking amount that you’ll have to pay. That’s why setting up budgets and cost alerts is important.
+I’ll take you through creating a budget and setting up alerts on the AWS Console. Follow through and lets learn something new.
+
+
+Step A: Login in to your AWS console as the root user. I hope you’ve enabled MFA and if not, worry not, I will do another walk-through on how to setup MFA and use the Authenticator App to login. 
+Step B: On the Search box search for AWS Budgets, you’ll be brought to the AWS Cost Management page, budgets fall under this service. 
+See image: AWS Cost Management Page and AWS Budgets Page Overview. 
+
+Click on the Create Budget Option to get started.
+
+Step 1: Choosing a budget: Choosing a budget that caters to your organizations needs is an important decision so is understanding the available budgets to choose from and what comes recommended by the cloud service provider. The available budgets in AWS are;
+-	Cost budget, which is the recommended one.
+-	Usage budget
+-	Savings plans budget
+-	Reservation budget
+See image: Step 1- Choose AWS Budget type
+
+Step 2: Set your budget:
