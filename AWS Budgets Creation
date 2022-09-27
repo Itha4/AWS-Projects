@@ -1,3 +1,5 @@
+# AWS BUDGETS
+
 No Organization or individual likes to be caught unawares by budgets. Having to pay for something you had not budgeted for is not such a thrilling task especially when you think of the dent that will be left once the bill is cleared. 
 Working in the cloud is both fun and sometimes it induces mini heart attacks when you open the cost analysis blade and see a shocking amount that you’ll have to pay. That’s why setting up budgets and cost alerts is important.
 I’ll take you through creating a budget and setting up alerts on the AWS Console. Follow through and lets learn something new.
