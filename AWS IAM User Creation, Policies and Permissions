@@ -20,6 +20,8 @@ See image: Step 1 – AWS IAM set user details.jpg
 Set a default password for the user which they will use to access the account the first time after which they should change the password and set one for themselves. 
 See image: Step 1 – AWS IAM User’s password creation.jpg
 
+Ensure you also allow for MFA, Mlti factor Authentication for the user and install the Autenticator app from playstore to llow for them to sign in using MFA in their next sign ins.
+
 -	Step 2: Assigning Permissions
 You can assign the created user the permission you wish for them to have.
 
