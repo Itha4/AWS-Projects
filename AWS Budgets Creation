@@ -1,21 +1,42 @@
-# AWS BUDGETS
-
 No Organization or individual likes to be caught unawares by budgets. Having to pay for something you had not budgeted for is not such a thrilling task especially when you think of the dent that will be left once the bill is cleared. 
 Working in the cloud is both fun and sometimes it induces mini heart attacks when you open the cost analysis blade and see a shocking amount that you’ll have to pay. That’s why setting up budgets and cost alerts is important.
-I’ll take you through creating a budget and setting up alerts on the AWS Console. Follow through and lets learn something new.
+I’ll take you through creating a budget and setting up alerts on the AWS Console.
 
+Follow through and let’ learn something new 💡.
 
 Step A: Login in to your AWS console as the root user. I hope you’ve enabled MFA and if not, worry not, I will do another walk-through on how to setup MFA and use the Authenticator App to login. 
 Step B: On the Search box search for AWS Budgets, you’ll be brought to the AWS Cost Management page, budgets fall under this service. 
-See image: AWS Cost Management Page and AWS Budgets Page Overview. 
+See image:  AWS Cost Management Page. 
 
 Click on the Create Budget Option to get started.
-
 Step 1: Choosing a budget: Choosing a budget that caters to your organizations needs is an important decision so is understanding the available budgets to choose from and what comes recommended by the cloud service provider. The available budgets in AWS are;
 -	Cost budget, which is the recommended one.
 -	Usage budget
 -	Savings plans budget
 -	Reservation budget
-See image: Step 1- Choose AWS Budget type
+See image: Step 1- Choose AWS Budget type.jpg
 
-Step 2: Set your budget:
+Step 2: Set your budget: When it comes to choosing your budget you need to specify the duration of time that you want to work with, will it be monthly? Or weekly?
+You also need to include the period the specified budget will run from and when it will stop
+Lastly, you need to specify the amount that you hope to spend with your budget in place. 
+
+
+Step 3: Configure Alerts
+Alerts are an important wake up to know when you are going over your budget. 
+-	When configuring budget alerts, we need to add the medium through which we should be contacted whether it’s by adding an email address. 
+-	We also need to specify at what stage of our spending, we should be contacted. Whether it’s when the budget threshold is at 50% less than 50% or more.
+See image: Step 3- AWS Budget Alerts.jpg & Step 3- AWS Budget Alerts2.jpg
+
+Step 4: Attach options
+This is considered an optional step that could be forgo but let’s take a brief look at it. This stage allows you set actions that you’d want to set in regards to budget alerts.
+See image: Step 4- AWS Budgets Actions.jpg
+
+Step 5: Review
+Before Committing, make sure you review your budget configuration to ensure everything is at you’d want it to be, if not, feel free to make a change before pressing that Create option.
+See image: Step 5- AWS Budgets Review.jpg
+
+Step 6: Refresh and see if your budget now shows on the budgets overview page. If your budget has reflected there, that’s your confirmation that your budget and alerts were created successfully. 
+See image: AWS Budgets Created.jpg
+
+Hope you learned something new, I sure did. Happy Learning.
+
