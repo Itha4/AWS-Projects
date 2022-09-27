@@ -1,3 +1,47 @@
 # AWS Identity And Access Managemnt User creation, attaching polices and assigning permissions.
 
-Identity has fast become the new security boundary .Digital Identity can best be described as a combination of who you’re, credentials and what you’re allowed to do, privilege
+Digital Identity can best be described as a combination of who you’re, credentials and what you’re allowed to do, privilege
+What is IAM in AWS? IAM services allow you to access your root account and work in it, allows you to grant access to other individuals. It allows for granular permission to be given. Identities in IAM consist of:
+-	AWS root account user
+-	Users 
+-	Groups
+-	Roles
+
+Let’s take a look at how to go about creating a user, granting them permission from the AWS console.💡
+
+Procedure:
+-	On the AWS Portal search for IAM in the search bar. On the left side panel navigate to users category under Access Management and click it. Click on the Add Users button to begin the process of creating a new user.
+See image: AWS IAM Users Page Overview.jpg
+
+-	Step 1: Set User Details
+From the displayed window, you’ll be able to assign a username to your user and select the access type they will have whether its: programmatic access for developers or individuals who desire to use APIs, SDKs and CLI or AWS Management Console Access.
+See image: Step 1 – AWS IAM set user details.jpg
+
+Set a default password for the user which they will use to access the account the first time after which they should change the password and set one for themselves. 
+See image: Step 1 – AWS IAM User’s password creation.jpg
+
+-	Step 2: Assigning Permissions
+You can assign the created user the permission you wish for them to have.
+
+See image: Step 2 – AWS IAM user creation permission
+
+When it comes to policies, you can add the user to a group and they will automatically inherit the permission and policies associated with that group, or you could copy the permissions from an existing user or you could just attach existing policies directly.
+
+ See image: Step 2 AWS IAM user creation policies.png
+
+-	Step 3: Creating Tags
+Tags are optional to add while creating a user but they are used to give more description to a user, might be their username or even job role.
+
+See image: Step 3 – IAM User Creation tags.jpg
+
+-	Step 4: Review
+Reviews are considered important as they help you see details you’ve assigned the user. Should you not be content with anything, you can go ahead and make changes before finalizing on creating the user.
+ See image: Step 4 - IAM User Creation review.jpg
+
+Step 5: Creation Success
+Getting to the last step and finalizing the creation process generates a successfully created message with a green tick. This confirms that your user has been created. 
+
+See image: Step 5 – IAM User Creation success.jpg
+
+
+💡Happy Learning!
