@@ -7,4 +7,4 @@ I'm currently learning AWS and I will be documenting some of the projects i work
  Some of the projects covered are:
  - Creating AWS budgets and setting up alerts.
  - Creating a IAM user, enabling MFA, setting permissions and attaching policies.
- - Creating S3 buckets, Cloud Trail logs and integrating them with Azure Sentinel.
+ - Integrating AWS CloudTrail logs with Azure Sentinel.
