@@ -19,23 +19,24 @@ Benefits of Cloud Trail include;
 -	Logs collected in Cloud Trail can be used to generate customized reports
 
 
-<h1>Procedure: Connecting Azure Sentinel to AWS CloudTrail</h1>
+Procedure: Connecting Azure Sentinel to AWS CloudTrail
+
 
 Working on Azure Portal:
 
 -	To start working with Microsoft Sentinel, Sentinel needs to be connected to an existing workspace or a new one to be created.
-see image: New or Existing Workspace on Sentinel.
+  see image: New or Existing Workspace on Sentinel.
 
-I chose to create a new workspace specific to this project. I assigned a name to it, chose my subscription, created a resource group for it and picked my location as east us. Deployment of the new workspace might take a few minutes. On clicking refresh, the newly created workspace should show alongside the other workspaces. Add Sentinel to the workspace and sentinel will now be ready for exploration.
+  I chose to create a new workspace specific to this project. I assigned a name to it, chose my subscription, created a resource group for it and picked my location as east us. Deployment of the new workspace might take a few minutes. On clicking refresh, the newly created workspace should show alongside the other workspaces. Add Sentinel to the workspace and sentinel will now be ready for exploration.
 
-See image: Sentinel Workspace Creation.jpg and  Sentinel Workspaces.jpg
+  See image: Sentinel Workspace Creation.jpg and  Sentinel Workspaces.jpg
 
 -	On the Sentinel overview page, click on Data Connectors on the left-side panel. Search for Amazon Web Services. The Amazon Web Services will come up and you see the prerequisites needed, configuration details. Take note of the account IDs as they will be used on the AWS portal to complete the connection. 
 
-See image: Sentinel Data Connectors.jpg
+  See image: Sentinel Data Connectors.jpg
 
-On the left -side panel you can see that the accepted data types are AWSCLoudTrailLogs. On clicking the data types link, it leads to a page that shows how you can query your AWS logs using KQL. 
+  On the left -side panel you can see that the accepted data types are AWSCLoudTrailLogs. On clicking the data types link, it leads to a page that shows how you can query your AWS logs using KQL. 
 
-See image: AWS Cloud Trail logs KQL querying.jpg
+  See image: AWS Cloud Trail logs KQL querying.jpg
 
 
