@@ -1,0 +1,23 @@
+# Integrating AWS logs to Azure Sentinel
+
+ Hybrid clouds are fast becoming the new norm, organizations are now running their workloads across different clouds and having a one stop security management for all clouds would definitely be a good thing.
+ Azure Sentinel offers visibility into the other clouds by allowing for intgeration with the clouds through different mechanisms. 
+ I will be focusing on how to connect your Cloud Trail Logs to Azure Sentinel. Follow through and learn something.
+
+Microsoft Sentinel is Azure’s SIEM, Security Incidents and Events Monitoring and SOAR, Security Orchestration and Automated Response tool. Sentinel is designed to provide a single solution for alert detection, threat visibility, proactive hunting and threat response.
+Sentinel’s work is based on data collected from various resources. Sentinel offers integrations with other parties;
+-	Integration with private infrastructure: by deploying Syslog servers as data collectors or by configuring endpoints to send data to azure directly
+-	Integration with GPS: using REST SPIs, log collectors or by deploying a CASB, Cloud Access Security Broker.
+-	Integration with AWS: using Cloud Trail which provides insights into user and network activity, the cloud trail logs can be integrated with Azure Sentinel.
+
+AWS Cloud Trail is a web service that records API calls to supported AWS services in your AWS account an delivers a log file to your s3 bucket.
+Benefits of Cloud Trail include;
+-	There’s controlled access to log files: access to S3 log files is centrally controlled in AWS which allows for controlled access of the log files and helps maintain their integrity.
+-	You can easily obtain alerts on Log File Creation and Misconfiguration
+-	Cloud Trail allows you to manage changes to AWS resources and log files.
+-	Offers an option to store logs for longer, logs can be stored for a year or longer or as per the organization’s chosen retention period.
+-	Logs collected in Cloud Trail can be used to generate customized reports
+
+
+# Procedure
+
