@@ -38,5 +38,44 @@ Working on Azure Portal:
   On the left -side panel you can see that the accepted data types are AWSCLoudTrailLogs. On clicking the data types link, it leads to a page that shows how you can query your AWS logs using KQL. 
 
   See image: AWS Cloud Trail logs KQL querying.jpg
+  
+  Working on AWS Portal:
+-	On the AWS portal search for IAM and on the left side panel click on roles.
+
+See image: IAM Overview Page.jpg
+
+-	Create a role: we need to create a role with read permissions to allow for connectivity between Azure and AWS. 
+o	Choose to create an AWS account and select, ‘another AWS account’ option. Use the Account ID from Azure Sentinel. 
+o	Under Options, tick the checkbox that asks for an external ID and use the one form Sentinel.
+
+See image: Create an AWS external account.
+
+-	Add Permissions: You’ll need to add read permissions to the role created. So, under permissions search for AWScloudTrail_ReadOnlyAccess and allow it
+
+See image: AWS account add permissions.jpg
+
+-	Add a name to the created role: assign a name to your role, that will be used again on the Azure Sentinel side.
+
+See image: Assign name to created role.jpg
+
+-	Once the review is done, create the role and if it is a successful operation, a role created message will be displayed with the name of your role.
+
+See image: role created successfully.jpg
+
+-	View the role to copy the ARN ID associated with it and paste it Azure Sentinel
+See image: Created role ARN ID.jpg
+Working on Azure Portal:
+
+-	Validate the role created using its ARN ID on azure. A success message will be returned if it’s validated.
+
+See image: Validate AWS role created on Azure.jpg
+Now, your CloudTrail logs are integrated with Azure Sentinel and you can query them using KQL scripts as shown in the image.
+See image: AWS integration to Azure Sentinel Success.jpg
+
+KQl is an interesting topic that is important for security engineers, whether it’s writing the KQL scripts or understanding them. 
+I’ll be adding a repo on my KQl learnings.
+
+☁️Happy Learning! 💡
+
 
 
