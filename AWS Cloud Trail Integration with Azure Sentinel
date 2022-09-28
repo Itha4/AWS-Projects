@@ -1,4 +1,4 @@
-# Integrating AWS logs to Azure Sentinel
+# Integrating AWS logs to Azure Sentinel Workspace
 
  Hybrid clouds are fast becoming the new norm, organizations are now running their workloads across different clouds and having a one stop security management for all clouds would definitely be a good thing.
  Azure Sentinel offers visibility into the other clouds by allowing for intgeration with the clouds through different mechanisms. 
